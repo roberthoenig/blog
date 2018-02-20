@@ -1,0 +1,5 @@
+baseURL = "https://roberthoenig.github.io/blog/"
+languageCode = "en-us"
+title = "Robert's test blog"
+theme = "ananke"
+publishDir = "docs"
