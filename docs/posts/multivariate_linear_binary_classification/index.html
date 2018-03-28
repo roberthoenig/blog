@@ -100,7 +100,7 @@ Linear classification is the task of finding a linear function that best separat
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Linear classification and linear regression are similar in their approach and data
-representation. However, they solve two different problems. <strong>Linear regression</strong>is the task of finding a linear function that <em>best approximates</em> a series of points. The example classification is nothing more than another dimension to a linear regressor. In contrast, a linear classifier treats the example classification not as a dimension, but in a special way that the following code demonstrates.</p>
+representation. However, they solve two different problems. <strong>Linear regression</strong> is the task of finding a linear function that <em>best approximates</em> a series of points. The example classification is nothing more than another dimension to a linear regressor. In contrast, a linear classifier treats the example classification not as a dimension, but in a special way that the following code demonstrates.</p>
 
 </div>
 </div>
@@ -112,6 +112,26 @@ representation. However, they solve two different problems. <strong>Linear regre
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Implementing-and-using-linear-classification.">Implementing and using linear classification.<a class="anchor-link" href="#Implementing-and-using-linear-classification.">¶</a>
 </h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Classifying-the-survival-chances-of-Titanic-passengers.">Classifying the survival chances of Titanic passengers.<a class="anchor-link" href="#Classifying-the-survival-chances-of-Titanic-passengers.">¶</a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The following code uses multivariate linear binary classification to classify the survival of passengers of the ship Titanic. The input data is taken from the <a href="https://www.kaggle.com/c/titanic">Kaggle Titanic</a> competition.</p>
+
 </div>
 </div>
 </div>
@@ -142,26 +162,6 @@ representation. However, they solve two different problems. <strong>Linear regre
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Problem-statement:-Classify-Titanic-passengers.">Problem statement: Classify Titanic passengers.<a class="anchor-link" href="#Problem-statement:-Classify-Titanic-passengers.">¶</a>
-</h4>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The following code uses linear classification to classify the survival of passengers of the ship Titanic. The input data is taken from the <a href="https://www.kaggle.com/c/titanic">Kaggle Titanic</a> competition.</p>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -385,7 +385,7 @@ representation. However, they solve two different problems. <strong>Linear regre
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Our input data has many features of seemingly low importance. To simplify and speed up the binary classifier, we limit our examples to the three seemingly most important features: <em>Pclass</em> (the passenger's class), <em>Sex</em> and <em>Age</em>.</p>
+<p>Our input data has many features of presumably low importance. To simplify and speed up the binary classifier, we limit our examples to the three presumably most important features: <em>Pclass</em> (the passenger's class), <em>Sex</em> and <em>Age</em>.</p>
 
 </div>
 </div>
@@ -645,7 +645,7 @@ representation. However, they solve two different problems. <strong>Linear regre
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>To test and use our linear classifier, we need to train it on the example set and than validate it with the validation set. The validation step tells us the accuracy of the linear classifier.</p>
-<p>Since our example set has only 800 examples and is thus small for machine learning standards, we will train our linear classifier multiple times with the same examples. After each training iteration, we test our classifier by classifying all examples from the validation set and comparing the output with the expected result. It is important for the validation step that <em>no</em> data of the validation data is used for improving the classifier, since this would invalidate subsequent accuracy reports.</p>
+<p>Since our example set has only 800 examples, it is small for machine learning standards. Therefore, we will train our linear classifier multiple times with the same examples. After each training iteration, we test our classifier by classifying all examples from the validation set and comparing the output with the expected result. It is important for the validation step that <em>no</em> data of the validation data is used for improving the classifier, since this would invalidate subsequent accuracy reports.</p>
 
 </div>
 </div>
