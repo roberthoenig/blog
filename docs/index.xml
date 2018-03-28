@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Robert&#39;s test blog</title>
+    <title>Blog</title>
     <link>https://roberthoenig.github.io/blog/</link>
-    <description>Recent content on Robert&#39;s test blog</description>
+    <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Feb 2018 10:56:49 -0500</lastBuildDate>
     
-	<atom:link href="https://roberthoenig.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://roberthoenig.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,16 +17,19 @@
       <pubDate>Tue, 20 Feb 2018 10:56:49 -0500</pubDate>
       
       <guid>https://roberthoenig.github.io/blog/about/</guid>
-      <description>sdfasdffffffffffffff asdfasdf</description>
+      <description>&lt;p&gt;ddd
+sass&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Test</title>
-      <link>https://roberthoenig.github.io/blog/blogs/test/</link>
-      <pubDate>Tue, 20 Feb 2018 10:55:41 -0500</pubDate>
+      <title></title>
+      <link>https://roberthoenig.github.io/blog/posts/hello/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://roberthoenig.github.io/blog/blogs/test/</guid>
-      <description>asdfl;kjsdfjkl; asd adsf asdf</description>
+      <guid>https://roberthoenig.github.io/blog/posts/hello/</guid>
+      <description>&lt;p&gt;hello hugo&lt;/p&gt;
+</description>
     </item>
     
   </channel>
