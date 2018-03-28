@@ -1,8 +1,0 @@
-baseURL = "https://roberthoenig.github.io/blog/"
-languageCode = "en-us"
-title = "Blog"
-theme = "one"
-publishDir = "docs"
-
-[params]
-    navigation = ["about.md", "hello.md"]
