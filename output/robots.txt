@@ -1,0 +1,4 @@
+Sitemap: https://roberthoenig.github.io/blog/sitemapindex.xml
+
+User-Agent: *
+Host: roberthoenig.github.io
