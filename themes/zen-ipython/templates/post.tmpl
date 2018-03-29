@@ -34,4 +34,9 @@
             {{ comments.comment_form(post.permalink(absolute=True), post.title(), post._base_path) }}
         {% endif %}
     </div>
+    <div id="commento"></div>
+    <script defer
+    src="http://35.185.118.67/assets/js/commento.min.js"
+    data-div="#commento">
+    </script>
 {% endblock %}
